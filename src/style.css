@@ -12,10 +12,27 @@ body {
 .nav-bar{
     height: 60px;
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo .logo-img{
+    height: 60px;
+    width: 70px;
+}
+
+.logo {
+    margin-top: 30px;
+    transform: translateX(-10vw);
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f0f0f0;
+    font-size: 2rem;
 }
 
 .nav-items {
@@ -26,10 +43,11 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 60%;
-    height: 40px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .nav-items a {
@@ -37,7 +55,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     transition: 0.3s linear;
 }
 
@@ -49,4 +67,31 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 10px 30px;
+}
+
+.nav-btn {
+    margin-top: 30px;
+    transform: translateX(6rem);
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-nav {
+    padding: 16px 40px;
+    border-radius: 8px;
+    background-color: #06c7d8;
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.btn-nav:hover{
+    background-color: #358e96;
+    border: 1px solid #f0f0f0;
 }
